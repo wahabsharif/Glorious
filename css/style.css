@@ -13552,8 +13552,9 @@ nav[aria-label="breadcrumb"] li:before {
   display: none;
 }
 .site-footer .widget {
-  margin-bottom: 40px;
+  margin-bottom: auto;
   display: block;
+  text-align: center;
 }
 .site-footer .widget h3,
 .site-footer .widget .h3 {
@@ -13564,7 +13565,7 @@ nav[aria-label="breadcrumb"] li:before {
   color: #00204a;
 }
 .site-footer .widget .links {
-  width: 150px;
+  width: auto;
 }
 .site-footer .widget .links li {
   margin-bottom: 10px;
@@ -13573,7 +13574,6 @@ nav[aria-label="breadcrumb"] li:before {
   display: inline-block;
 }
 .site-footer .social li a {
-  display: inline-block;
   width: 40px;
   height: 40px;
   position: relative;
