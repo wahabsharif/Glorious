@@ -13566,6 +13566,7 @@ nav[aria-label="breadcrumb"] li:before {
 }
 .site-footer .widget .links {
   width: auto;
+  display: inline-flex;
 }
 .site-footer .widget .links li {
   margin-bottom: 10px;
