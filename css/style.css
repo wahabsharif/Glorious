@@ -12698,22 +12698,11 @@ textarea {
 .hero {
   position: relative;
   background-size: cover;
-  background-position: cnter center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: #00204a;
 }
 .hero.overlay {
   position: relative;
-}
-.hero.overlay:before {
-  background-color: rgba(0, 0, 0, 0.5);
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: 1;
 }
 .hero,
 .hero > .container > .row {
@@ -12722,7 +12711,7 @@ textarea {
 }
 .hero.page-inner,
 .hero.page-inner > .container > .row {
-  height: 70vh;
+  height: 105vh;
   min-height: 300px;
 }
 .hero > .container {
