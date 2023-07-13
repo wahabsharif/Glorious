@@ -12020,12 +12020,8 @@ body {
 }
 
 .logo {
-  font-size: 24px;
-  color: rgba(255, 255, 255, 0.8) !important;
-  font-weight: 500;
-}
-.logo:hover {
-  color: #fff !important;
+  height: 50px;
+  width: auto;
 }
 
 .site-nav {
@@ -12713,6 +12709,14 @@ textarea {
 .hero.page-inner > .container > .row {
   height: 105vh;
   min-height: 300px;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .hero.page-inner,
+  .hero.page-inner > .container > .row {
+    height: auto; /* Adjust the height as per your requirements */
+    min-height: 250px; /* Adjust the minimum height as per your requirements */
+  }
 }
 .hero > .container {
   position: relative;
