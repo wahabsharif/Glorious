@@ -22,7 +22,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #00204a;
-  --bs-secondary: #bf9b30;
+  --bs-secondary: #b4965a;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -3274,8 +3274,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #bf9b30;
-  border-color: #bf9b30;
+  background-color: #b4965a;
+  border-color: #b4965a;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3310,8 +3310,8 @@ fieldset:disabled .btn {
 .btn-secondary:disabled,
 .btn-secondary.disabled {
   color: #fff;
-  background-color: #bf9b30;
-  border-color: #bf9b30;
+  background-color: #b4965a;
+  border-color: #b4965a;
 }
 
 .btn-success {
@@ -3604,13 +3604,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-  color: #bf9b30;
-  border-color: #bf9b30;
+  color: #b4965a;
+  border-color: #b4965a;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #bf9b30;
-  border-color: #bf9b30;
+  background-color: #b4965a;
+  border-color: #b4965a;
 }
 .btn-check:focus + .btn-outline-secondary,
 .btn-outline-secondary:focus {
@@ -3623,8 +3623,8 @@ fieldset:disabled .btn {
 .btn-outline-secondary.active,
 .btn-outline-secondary.dropdown-toggle.show {
   color: #fff;
-  background-color: #bf9b30;
-  border-color: #bf9b30;
+  background-color: #b4965a;
+  border-color: #b4965a;
 }
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus,
@@ -3636,7 +3636,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-secondary:disabled,
 .btn-outline-secondary.disabled {
-  color: #bf9b30;
+  color: #b4965a;
   background-color: transparent;
 }
 
@@ -7406,7 +7406,7 @@ fieldset:disabled .btn {
 }
 
 .link-secondary {
-  color: #bf9b30;
+  color: #b4965a;
 }
 .link-secondary:hover,
 .link-secondary:focus {
@@ -7902,7 +7902,7 @@ fieldset:disabled .btn {
 }
 
 .border-secondary {
-  border-color: #bf9b30 !important;
+  border-color: #b4965a !important;
 }
 
 .border-success {
@@ -12755,7 +12755,7 @@ textarea {
   margin-right: 10px;
 }
 .hero .form-search .btn {
-  background-color: #bf9b30;
+  background-color: #b4965a;
   padding-left: 30px;
   padding-right: 30px;
   color: #fff;
@@ -12854,7 +12854,7 @@ textarea {
   transition: 0.3s all ease;
 }
 .btn.btn-primary {
-  background: #bf9b30;
+  background: #b4965a;
   color: #fff;
 }
 .btn:hover {
@@ -13001,7 +13001,7 @@ textarea {
   color: #000;
 }
 .property-item .property-content .price {
-  color: #bf9b30;
+  color: #b4965a;
 }
 .property-item .property-content .price span {
   position: relative;
@@ -13015,7 +13015,7 @@ textarea {
   height: 2px;
   left: 0;
   bottom: 0;
-  background-color: #bf9b30;
+  background-color: #b4965a;
 }
 .property-item .property-content .specs {
   font-size: 18px;
@@ -13470,7 +13470,7 @@ nav[aria-label="breadcrumb"] li:before {
   width: 100%;
   bottom: 0;
   height: 2px;
-  background-color: #bf9b30;
+  background-color: #b4965a;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
