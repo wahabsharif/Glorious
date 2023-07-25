@@ -13115,11 +13115,15 @@ textarea {
 .feature-h:focus [class^="icon-"] {
   color: #00204a;
 }
-
-.img-about img {
+.img-about {
   position: relative;
   z-index: 2;
 }
+
+/* .img-about img {
+  position: relative;
+  z-index: 2;
+} */
 
 .img-about.dots {
   position: relative;
@@ -13588,23 +13592,4 @@ nav[aria-label="breadcrumb"] li:before {
 .site-footer .social li a:hover {
   background: #00204a;
   color: #fff;
-}
-
-.wa-float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 20px;
-  right: 2px;
-  color: #fff;
-  text-align: center;
-  z-index: 100;
-}
-
-.wa-float:hover {
-  transform: translateY(-7px);
-}
-
-.wa-float:active {
-  transform: translateY(-1px);
 }
