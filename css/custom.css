@@ -438,10 +438,7 @@
 
 /* FAQ's */
 
-.center {
-  width: 600px;
-  margin: auto;
-}
+/* Common styles for all screen sizes */
 .center section a {
   background: #fff;
   color: #000;
@@ -454,6 +451,7 @@
   overflow: hidden;
   border-bottom: 3px solid #c5a04d;
 }
+
 .center section p {
   padding: 10px;
   overflow: hidden;
@@ -471,9 +469,33 @@
   padding: 20px;
 }
 
+/* Responsive styles for screens up to 600px width */
+@media (max-width: 600px) {
+  .center {
+    width: 100%;
+  }
+}
+
+/* Responsive styles for screens between 601px and 1024px width */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .center {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+/* Responsive styles for screens larger than 1024px width */
+@media (min-width: 1025px) {
+  .center {
+    width: 600px;
+    margin: auto;
+  }
+}
+
 /* hero button */
 .carousel-item {
-  height: 70vh;
+  height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
