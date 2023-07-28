@@ -1,4 +1,5 @@
-/* #wrap {
+/* Download Button */
+#wrap {
   margin: 20px auto;
   text-align: center;
 }
@@ -104,7 +105,7 @@
 .btn-slide span.title-hover,
 .btn-slide2 span.title-hover2 {
   color: #fff;
-} */
+}
 
 /* ===Floating WhatsApp=== */
 .wa-float {
@@ -441,7 +442,7 @@
   width: 600px;
   margin: auto;
 }
-section a {
+.center section a {
   background: #fff;
   color: #000;
   text-decoration: none;
@@ -453,7 +454,7 @@ section a {
   overflow: hidden;
   border-bottom: 3px solid #c5a04d;
 }
-section p {
+.center section p {
   padding: 10px;
   overflow: hidden;
   height: 0;
@@ -464,8 +465,19 @@ section p {
   letter-spacing: 2px;
   transition: 2s;
 }
-section:target p {
+.center section:target p {
   height: 10em;
   opacity: 1;
   padding: 20px;
+}
+
+/* hero button */
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
