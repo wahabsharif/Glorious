@@ -129,9 +129,8 @@
 /* ===Floating Icons=== */
 .float-icons {
   position: fixed;
-  height: 220px;
-  bottom: 140px;
-  right: 1px;
+  bottom: 65px;
+  right: 3px;
   z-index: 100;
 }
 .float-icons a:hover {
@@ -343,17 +342,6 @@
   }
 }
 
-/* hero button */
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 /* Blogs Sec */
 
 .main {
@@ -494,4 +482,34 @@ hr {
 
 .card_text p:last-child {
   margin: 0;
+}
+/* Main Hero Video */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 400px; /* Adjust the height for smaller screens */
+  }
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+    height: 800px; /* Adjust the height for larger screens */
+  }
 }

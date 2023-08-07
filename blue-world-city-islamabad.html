@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="shortcut icon" href="images/logo.webp" />
 
     <meta name="description" content="" />
     <meta name="keywords" content="bootstrap, bootstrap5" />
@@ -27,8 +27,8 @@
   <body>
     <!--====Floating WhatsApp====-->
     <div class="wa-float" target="_blank">
-      <a href="https://wa.me/923177779844"
-        ><svg
+      <a href="https://wa.me/923177779844">
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           width="45"
           height="45"
@@ -66,42 +66,32 @@
       </a>
     </div>
     <!--===Floating WhatsApp End====-->
-    <!-- ====Floating Icons==== -->
-    <div class="fab-wrapper">
-      <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
-      <label class="fab" for="fabCheckbox">
-        <span class="fab-dots fab-dots-1"></span>
-        <span class="fab-dots fab-dots-2"></span>
-        <span class="fab-dots fab-dots-3"></span>
-        <span class="fab-dots fab-dots-3"></span>
-      </label>
-      <div class="fab-wheel">
-        <a
-          href="https://www.facebook.com/gloriousrealestates.pk"
-          target="_blank"
-          class="fab-action fab-action-1">
-          <i class="icon-facebook"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/gloriousrealestates.pk/"
-          target="_blank"
-          class="fab-action fab-action-2">
-          <i class="icon-instagram"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/glorious-real-estates-28b320282/"
-          target="_blank"
-          class="fab-action fab-action-3">
-          <i class="icon-linkedin"></i>
-        </a>
-        <a
-          href="https://www.youtube.com/@GloriousRealEstatespk"
-          target="_blank"
-          class="fab-action fab-action-4">
-          <i class="icon-youtube"></i>
-        </a>
+    <!---------------------------- Floating Icons --------------------------->
+    <div class="float-icons">
+      <div class="widget">
+        <ul class="list-unstyled social">
+          <li class="px-2">
+            <a href="https://www.instagram.com/gloriousrealestates.pk/"
+              ><span class="icon-instagram"></span
+            ></a>
+          </li>
+          <li class="px-2">
+            <a href="https://www.facebook.com/gloriousrealestates.pk"
+              ><span class="icon-facebook"></span
+            ></a>
+          </li>
+          <li class="px-2">
+            <a href="https://www.youtube.com/@GloriousRealEstatespk"
+              ><span class="icon-youtube"></span
+            ></a>
+          </li>
+          <li class="px-2">
+            <a href="tel://923177779844"><span class="icon-phone"></span></a>
+          </li>
+        </ul>
       </div>
     </div>
+    <!-- ------------------------- Floating Icons End ------------------- -->
     <!--====NavBar====-->
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -117,7 +107,7 @@
           <div class="site-navigation">
             <a href="index.html">
               <img
-                src="images/logo.png"
+                src="images/logo.webp"
                 href="index.html"
                 alt="Logo"
                 class="logo float-start"
@@ -125,36 +115,56 @@
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li class="has-children">
+              <li class="active">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="has-children active">
                 <a href="#">Societies</a>
                 <ul class="dropdown">
-                  <li><a href="faisal-town.html">Faisal Town-I & II</a></li>
-                  <li><a href="faisal-hills.html">Faisal Hills</a></li>
                   <li>
-                    <a href="capital-smart-city.html">Capital Smart City</a>
+                    <a href="faisal-town.html"><u>Faisal Town-I & II</u></a>
                   </li>
                   <li>
-                    <a href="lahore-smart-city.html">Lahore Smart City</a>
+                    <a href="faisal-hills.html"><u>Faisal Hills</u></a>
                   </li>
-                  <li><a href="mpchs.html">MPCHS</a></li>
                   <li>
-                    <a href="park-view-city.html">Park View City Islamabad</a>
+                    <a href="capital-smart-city.html"
+                      ><u>Capital Smart City</u></a
+                    >
+                  </li>
+                  <li>
+                    <a href="lahore-smart-city.html"
+                      ><u>Lahore Smart City</u></a
+                    >
+                  </li>
+                  <li>
+                    <a href="mpchs.html"><u>MPCHS</u></a>
+                  </li>
+                  <li>
+                    <a href="park-view-city.html"
+                      ><u>Park View City Islamabad</u></a
+                    >
                   </li>
                   <li>
                     <a href="new-metro-city-gujjar-khan.html"
-                      >New Metro City Gujjar Khan</a
+                      ><u>New Metro City Gujjar Khan</u></a
                     >
                   </li>
-                  <li><a href="nova-city.html">Nova City</a></li>
-                  <li><a href="taj-residencia.html">Taj Residencia </a></li>
                   <li>
+                    <a href="nova-city.html"><u>Nova City Islamabad</u></a>
+                  </li>
+                  <li>
+                    <a href="taj-residencia.html"><u>Taj Residencia</u></a>
+                  </li>
+                  <li class="active">
                     <a href="blue-world-city-islamabad.html"
-                      >Blue World City Islamabad</a
+                      ><u>Blue World City Islamabad</u></a
                     >
                   </li>
                   <li>
-                    <a href="bahria-town-peshawar.html">Bahria Town Peshawar</a>
+                    <a href="bahria-town-peshawar.html"
+                      ><u>Bahria Town Peshawar</u></a
+                    >
                   </li>
                 </ul>
               </li>
@@ -163,20 +173,24 @@
                 <ul class="dropdown">
                   <li>
                     <a href="j7-global.html"
-                      >J-7 Global (Radisson Blu) Islamabad</a
+                      ><u>J-7 Global (Radisson Blu) Islamabad</u></a
                     >
                   </li>
-                  <li><a href="j7-icon.html">J7 Icon</a></li>
+                  <li>
+                    <a href="j7-icon.html"
+                      ><u>J7 Icon (Royal Swiss Islamabad)</u></a
+                    >
+                  </li>
                   <li>
                     <a href="zarkoon-heights-islamabad.html"
-                      >Zarkon Heights Islamabad</a
+                      ><u>Zarkon Heights Islamabad</u></a
                     >
                   </li>
                 </ul>
               </li>
               <li><a href="gallery.html">Gallery</a></li>
-              <!-- <li><a href="listings.html">Listings</a></li>
-              <li><a href="blogs.html">Blogs</a></li> -->
+              <!-- <li><a href="listings.html">Listings</a></li> -->
+              <li><a href="blogs.html">Blogs</a></li>
               <li><a href="career.html">Career</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -197,7 +211,7 @@
     <div
       class="hero page-inner overlay"
       style="
-        background-image: url('images/blue-world-city/blue-world-city-hero-image.webp');
+        background-image: url('images/blue-world-city/Blue\ world\ City\ Size\ 2\(4\).webp');
       "></div>
     <!--===About===-->
     <div class="section">
@@ -270,7 +284,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Blue World City Blue Mosque.jpg"
+                src="images/blue-world-city/Blue World City Blue Mosque.webp"
                 alt="Image"
                 class="img-fluid" />
             </div>
@@ -305,7 +319,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Blue World City Water Theme park.jpg"
+                src="images/blue-world-city/Blue World City Water Theme park.webp"
                 alt="Image"
                 class="img-fluid" />
             </div>
@@ -340,7 +354,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Blue World City Zoo.jpg"
+                src="images/blue-world-city/Blue World City Zoo.webp"
                 alt="Image"
                 class="img-fluid" />
             </div>
@@ -376,7 +390,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Blue World City Corporate Office.jpg"
+                src="images/blue-world-city/Blue World City Corporate Office.webp"
                 alt="Image"
                 class="img-fluid" />
             </div>
@@ -443,7 +457,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Blue World City Rumi Square.jpg"
+                src="images/blue-world-city/Blue World City Rumi Square.webp"
                 alt="Image"
                 class="img-fluid" />
             </div>
@@ -451,6 +465,236 @@
         </div>
       </div>
     </div>
+    <!-- ==== Blocks ==== -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6 text-center">
+          <h4><u>General Block</u></h4>
+          <p>
+            "Immaculately designed, General Block offers a seamless living
+            experience, catering to individuals seeking a harmonious blend of
+            convenience and affordability."
+          </p>
+          <ul class="text-start">
+            <li>
+              Convenient and cost-effective, residential and commercial
+              offerings.
+            </li>
+            <li>Beautifully constructed, 5 Marla serene villas.</li>
+            <li>Paved roads and 208 ft. wide main boulevard.</li>
+            <li>Balloting completed and possession offered.</li>
+            <li>Complete provision of all the necessary utilities.</li>
+          </ul>
+          <h6>
+            <u><b>What’s on offer?</b></u>
+          </h6>
+          <ul class="text-start">
+            <li>5, 8, 10 Marla 1 & 2 Kanal Residential Plots & Files</li>
+            <li>5 Marla Serene Villas</li>
+            <li>5 Marla Commercial Files</li>
+          </ul>
+          <h6>
+            <b><u>Exquisite Features</u></b>
+          </h6>
+          <ul class="text-start">
+            <li>Serene Villas</li>
+            <li>Imitation of Capitol Hill</li>
+            <li>Central Park</li>
+            <li>Grand Mosque</li>
+            <li>Commercial Zone</li>
+            <li>Flagship Campus of Forces School</li>
+            <li>Hospital</li>
+            <li>24/7 Security & Surveillance</li>
+          </ul>
+          <h6>
+            <u><b>Magnificent Location</b></u>
+          </h6>
+          <p>
+            General Block enjoys an ideal location on Northern Avenue within the
+            world's first purpose-built tourist city, Blue World City. Situated
+            in close proximity to prominent landmarks of the twin cities, this
+            iconic project offers a prime and convenient setting.
+          </p>
+          <ul class="text-start">
+            <li>5-minute drive from Rawalpindi Ring Road</li>
+            <li>5-minute drive from Islamabad-Lahore Motorway M2</li>
+            <li>10-minute drive from CPEC Route</li>
+            <li>20-minute drive from New Islamabad International Airport</li>
+          </ul>
+        </div>
+        <div class="col-6 text-center">
+          <h4><u>Overseas Block</u></h4>
+          <p>
+            The Overseas Block at Blue World City is tailor-made for Pakistani
+            expatriates, providing them with an exceptional world-class
+            lifestyle experience within Pakistan's borders.
+          </p>
+          <ul class="text-start">
+            <li>Connected directly with Bahria Town Phase VII.</li>
+            <li>Possession in districts offered on complete payment.</li>
+            <li>Plot of choice available.</li>
+            <li>Paved roads and 208 ft. wide main boulevard.</li>
+            <li>Complete provision of all the necessary utilities.</li>
+          </ul>
+          <h6>
+            <u><b>What’s on offer?</b></u>
+          </h6>
+          <ul class="text-start">
+            <li>7, 10 & 14 Marla, 1 & 2 Kanal Residential Plots</li>
+            <li>5 & 10 Marla Commercial Plots</li>
+          </ul>
+          <h6>
+            <u><b>Exquisite Features</b></u>
+          </h6>
+          <ul class="text-start">
+            <li>Exclusive Golf Club</li>
+            <li>Family Parks</li>
+            <li>State-of-the-art Hospital</li>
+            <li>Overseas Lagoon Club</li>
+            <li>Green Service Area</li>
+            <li>E-tag Controlled Entrance</li>
+            <li>24/7 Security & Surveillance</li>
+          </ul>
+          <h6>
+            <u><b>Magnificent Location </b></u>
+          </h6>
+          <p>
+            Situated on Sunset Avenue within the world's first purpose-built
+            tourist city, Blue World City, the Overseas Block enjoys a prime
+            location in close proximity to significant landmarks of the twin
+            cities.
+          </p>
+          <ul class="text-start">
+            <li>5-minute drive from Rawalpindi Ring Road</li>
+            <li>5-minute drive from Islamabad-Lahore Motorway M2</li>
+            <li>10-minute drive from CPEC Route</li>
+            <li>20-minute drive from New Islamabad International Airport</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <h4><u>Sports Valley</u></h4>
+          <p>
+            In its pursuit of promoting sports tourism in Pakistan, Blue World
+            City has unveiled an expansive "Sports Valley" within the world's
+            first purpose-built tourist city, catering to a wide range of
+            sporting activities.
+          </p>
+          <ul class="text-start">
+            <li>
+              One-of-its-kind Sports Valley featuring the largest cricket
+              stadium in Pakistan with a capacity of over 55,000 spectators and
+              parking for 15,000 vehicles.
+            </li>
+            <li>
+              Recreational parks with dedicated courts for futsal, volleyball,
+              badminton, basketball and tennis.
+            </li>
+            <li>
+              8 Kanal, G+25 commercial hubs surrounding the cricket stadium.
+            </li>
+            <li>
+              Live views of cricket stadium from the surrounding skyscrapers.
+            </li>
+            <li>Blue Mosque replica</li>
+            <li>Paved roads and 208 ft. wide Sunset Boulevard.</li>
+            <li>Complete provision of all the necessary utilities.</li>
+          </ul>
+          <h6>
+            <u><b>What’s on offer</b></u>
+          </h6>
+          <ul class="text-start">
+            <li>5, 8, 10 Marla & 1 Kanal Residential Plot Files</li>
+          </ul>
+          <h6>
+            <u><b>Unprecedented Features </b></u>
+          </h6>
+          <ul class="text-start">
+            <li>Pakistan’s Largest Cricket Stadium</li>
+            <li>Villaggio Mall</li>
+            <li>Torch Hotel</li>
+            <li>Blue Mosque Replica</li>
+            <li>Commercial Hubs</li>
+            <li>Apartment Complexes</li>
+            <li>Open Air Gymnasiums</li>
+            <li>Recreational Parks</li>
+            <li>Bowling Alley</li>
+            <li>Hiking Trails</li>
+            <li>Hospital</li>
+            <li>School</li>
+          </ul>
+          <h6>
+            <u><b>Exemplary Location </b></u>
+          </h6>
+          <p>
+            With convenient access from Defence Road, the Sports Valley is
+            located within the world's first purpose-built tourist city, Blue
+            World City. Positioned in close proximity to significant landmarks
+            of the twin cities, this iconic project offers an unparalleled
+            sporting experience.
+          </p>
+        </div>
+        <div class="col-6 text-center">
+          <h4><u>Waterfront District</u></h4>
+          <p>
+            Introducing "Pakistan's First Real Waterfront Community," the
+            waterfront district provides a serene and picturesque living
+            experience alongside captivating natural waterfalls.
+          </p>
+          <ul class="text-start">
+            <li>Homes amidst natural waters.</li>
+            <li>Paved roads and 208 ft. wide main boulevard.</li>
+            <li>Complete provision of all the necessary utilities.</li>
+          </ul>
+          <h6>
+            <u><b>What’s on offer? </b></u>
+          </h6>
+          <ul class="text-start">
+            <li>6, 12 & 18 Marla Residential Plots & Files</li>
+          </ul>
+          <h6>
+            <u><b>Exquisite Features </b></u>
+          </h6>
+          <ul class="text-start">
+            <li>Natural Lakes & Water Streams</li>
+            <li>Water Sports</li>
+            <li>Mini Golf</li>
+            <li>Outdoor Cinema</li>
+            <li>Floating Restaurant</li>
+            <li>Dancing Fountains</li>
+            <li>Grand Mosque</li>
+            <li>Commercial Zone</li>
+          </ul>
+          <h6>
+            <u><b>Magnificent Location </b></u>
+          </h6>
+          <p>
+            The Waterfront District enjoys an ideal location on Sunset Avenue
+            within the world's first purpose-built tourist city, Blue World
+            City. Positioned in close proximity to significant landmarks of the
+            twin cities, this iconic project offers a prime and convenient
+            setting.
+          </p>
+          <ul class="text-start">
+            <li>5-minute drive from Rawalpindi Ring Road</li>
+            <li>5-minute drive from Islamabad-Lahore Motorway M2</li>
+            <li>10-minute drive from CPEC Route</li>
+            <li>20-minute drive from New Islamabad International Airport</li>
+          </ul>
+          <h6>
+            <u><b>A Safe & Secure Investment </b></u>
+          </h6>
+          <p>
+            Situated within the iconic Blue World City, the General Block
+            resides in the world's first purpose-built tourist city. This
+            strategic location ensures that your investment here will witness
+            exponential growth as the project continues to develop.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ==== Blocks End ==== -->
     <!--====Features====-->
     <div class="container">
       <div class="text-center">
@@ -477,7 +721,7 @@
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           <img
-            src="images/features/gym.png"
+            src="images/features/gym.webp"
             style="width: auto; height: 45px"
             alt="" />
           <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
@@ -504,7 +748,7 @@
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           <img
-            src="images/features/parking.png"
+            src="images/features/parking.webp"
             style="width: auto; height: 45px"
             alt="" />
           <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
@@ -513,7 +757,7 @@
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           <img
-            src="images/features/roof-top.png"
+            src="images/features/roof-top.webp"
             style="width: auto; height: 45px"
             alt="" />
           <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
@@ -522,7 +766,7 @@
         </div>
         <div class="col-md-4 col-xs-6 text-center">
           <img
-            src="images/features/24-7.jpg"
+            src="images/features/24-7.webp"
             style="width: auto; height: 45px"
             alt="" />
           <h5 class="mt-3 mb-3" style="min-height: 55px; font-size: 14px">
@@ -548,7 +792,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/blue world city Proximity.jpg"
+                src="images/blue-world-city/blue world city Proximity.webp"
                 alt="Location"
                 class="img-fluid" />
             </div>
@@ -598,7 +842,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/blue world city MASTER PLAN.jpg"
+                src="images/blue-world-city/blue world city MASTER PLAN.webp"
                 alt="Master Plan"
                 class="img-fluid" />
             </div>
@@ -612,7 +856,7 @@
           <div class="col-lg-7 mb-5 mb-lg-0">
             <div class="img-about dots">
               <img
-                src="images/blue-world-city/Sports Valley.jpg"
+                src="images/blue-world-city/Sports Valley.webp"
                 alt="Payment Plan"
                 class="img-fluid" />
             </div>
@@ -647,19 +891,19 @@
         <div class="row">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
             <img
-              src="images/blue-world-city/Blue world City (1).jpg"
+              src="images/blue-world-city/Blue world City (1).webp"
               alt="Image"
               class="img-fluid" />
           </div>
           <div class="col-md-4 mt-lg-5" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="images/blue-world-city/Blue world City (2).jpg"
+              src="images/blue-world-city/Blue world City (2).webp"
               alt="Image"
               class="img-fluid" />
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
             <img
-              src="images/blue-world-city/Blue world City (3).jpg"
+              src="images/blue-world-city/Blue world City (3).webp"
               alt="Image"
               class="img-fluid" />
           </div>
@@ -821,21 +1065,7 @@
       <!--====Footer Contact Form End-->
       <div class="container">
         <div class="row">
-          <!--====Usefuls====-->
-          <div class="col-lg-6">
-            <div class="widget">
-              <h3>Usefuls</h3>
-              <ul class="list-unstyled links">
-                <li class="px-2"><a href="about.html">About us</a></li>
-                <li class="px-2"><a href="contact.html">Contact us</a></li>
-                <li class="px-2"><a href="services.html">Services</a></li>
-                <li class="px-2"><a href="#">Terms</a></li>
-                <li class="px-2"><a href="#">Privacy</a></li>
-              </ul>
-            </div>
-          </div>
-          <!--====UseFuls End====-->
-          <div class="col-lg-6">
+          <div class="flex justify-content-center">
             <!--====Social Icons====-->
             <div class="widget">
               <ul class="list-unstyled social">
@@ -856,7 +1086,9 @@
                   <a href="#"><span class="icon-linkedin"></span></a>
                 </li>
                 <li class="px-2">
-                  <a href="#"><span class="icon-youtube"></span></a>
+                  <a href="https://www.youtube.com/@GloriousRealEstatespk"
+                    ><span class="icon-youtube"></span
+                  ></a>
                 </li>
               </ul>
             </div>
