@@ -513,3 +513,19 @@ video {
     height: 800px; /* Adjust the height for larger screens */
   }
 }
+/* text circle */
+.circle {
+  width: 50px; /* Adjust the width and height to change the size of the circle */
+  height: 50px;
+  border-radius: 50%; /* This creates the circular shape */
+  background-color: #00204a; /* You can change the background color to your preference */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  font-size: 16px; /* Adjust the font size to your preference */
+  font-weight: bold; /* You can apply other text styles as needed */
+  color: #fff;
+}
