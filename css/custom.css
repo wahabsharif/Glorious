@@ -112,7 +112,7 @@
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 20px;
+  bottom: 70px;
   right: 1px;
   color: #fff;
   text-align: center;
@@ -129,7 +129,7 @@
 /* ===Floating Icons=== */
 .float-icons {
   position: fixed;
-  bottom: 65px;
+  bottom: 110px;
   right: 3px;
   z-index: 100;
 }
