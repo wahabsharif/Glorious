@@ -1,0 +1,34 @@
+/* Default styles */
+.float-icons {
+  display: block;
+  z-index: 100;
+  position: fixed;
+  margin-top: 230px;
+  right: 2px;
+}
+
+.float-icons a {
+  display: block;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+  float: none;
+  filter: grayscale(100%);
+}
+
+.float-icons a:hover {
+  transform: scale(2);
+  filter: grayscale(0%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .float-icons {
+    margin-top: 140px; /* Adjust margin for smaller screens */
+    right: 10px; /* Adjust right positioning */
+    left: auto; /* Remove left positioning */
+  }
+
+  .float-icons a {
+    margin: 5px; /* Adjust margin for smaller screens */
+  }
+}

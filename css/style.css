@@ -8901,6 +8901,9 @@ body {
   ) !important;
 }
 
+.bg-img-dark {
+  background-image: url("/images/texture-bg-image.jpg");
+}
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(
@@ -12031,6 +12034,11 @@ body {
   top: 0;
   z-index: 9;
   width: 100%;
+}
+
+.site-nav a {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: "larger";
 }
 .site-nav h1,
 .site-nav .h1 {
