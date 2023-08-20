@@ -1,0 +1,84 @@
+.updates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* 
+#cards-container {
+  overflow: hidden;
+  margin: 20px;
+} */
+
+.cards {
+  width: 100%;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px -10px black;
+}
+
+.card {
+  display: flex;
+  border-radius: 0.3em;
+  box-shadow: 0 10px 25px -10px black;
+  transition: 300ms ease-in-out;
+  margin-left: 0.7em;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px -10px black;
+}
+.card-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+}
+#card1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sunflower_from_Silesia2.jpg/1200px-Sunflower_from_Silesia2.jpg");
+}
+#card2 {
+  background-image: url("../images/default-source/random-test/blk-tahoe.png");
+}
+#card3 {
+  background-image: url("../images/default-source/random-test/countycourthouse.jpg");
+}
+#card4 {
+  background-image: url("../images/default-source/random-test/shutterstock_163180895.jpg");
+}
+
+/* #slide-left-container,
+#slide-right-container {
+  display: none;
+} */
+
+#slide-left-container.active,
+#slide-right-container.active {
+  display: block;
+  cursor: pointer;
+}
+
+.slide-left,
+.slide-right {
+  border-color: black;
+  border-style: solid;
+  height: 20px;
+  width: 20px;
+  margin-top: 30%;
+}
+
+.slide-left {
+  border-width: 4px 0 0 4px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left: 40%;
+}
+
+.slide-right {
+  border-width: 4px 4px 0 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-left: 22%;
+}
